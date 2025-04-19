@@ -7,15 +7,17 @@ CORS(app)
 
 app.config["SECRET_KEY"] = "faslkdfjlaskdfjl;sdkfj"
 
+
+
 firebaseConfig = {
-    "apiKey": "AIzaSyApm0UL76BHxiC36wzJZRCxQH0tsfMlOPU",
-    "authDomain": "ecell-d5d2c.firebaseapp.com",
-    "databaseURL": "https://ecell-d5d2c-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "projectId": "ecell-d5d2c",
-    "storageBucket": "ecell-d5d2c.appspot.com",
-    "messagingSenderId": "443301337374",
-    "appId": "1:443301337374:web:1c055dab09946ba6e9110f",
-    "measurementId": "G-H31BLZLNGT"
+    "apiKey": "AIzaSyAGyYWnJcNyI_cB1ywvjqz5EzDCmquZanw",
+    "authDomain": "ecell-stake.firebaseapp.com",
+    "databaseURL": "https://ecell-stake-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "projectId": "ecell-stake",
+    "storageBucket": "ecell-stake.firebasestorage.app",
+    "messagingSenderId": "637694149122",
+    "appId": "1:637694149122:web:8f554bf4afe4638b105d1b",
+    "measurementId": "G-VTD72TQKL2"
 }
 
 firebase = pyrebase.initialize_app(firebaseConfig)
